@@ -176,6 +176,9 @@ class DataTrainingArguments:
     dataset_config_name: Optional[str] = field(
         default=None, metadata={"help": "The configuration name of the dataset to use (via the datasets library)."}
     )
+    dataset_data_files: Optional[str] = field(
+        default=None, metadata={"help": "A list of data file to use (via the datasets library)."}
+    )
     train_file: Optional[str] = field(default=None, metadata={"help": "The input training data file (a text file)."})
     validation_file: Optional[str] = field(
         default=None,
@@ -328,6 +331,7 @@ def main():
             cache_dir=model_args.cache_dir,
             token=model_args.token,
             streaming=data_args.streaming,
+            data_files=data_args.dataset_data_files,
         )
         if "validation" not in raw_datasets.keys():
             raw_datasets["validation"] = load_dataset(
@@ -337,6 +341,7 @@ def main():
                 cache_dir=model_args.cache_dir,
                 token=model_args.token,
                 streaming=data_args.streaming,
+                data_files=data_args.dataset_data_files,
             )
             raw_datasets["train"] = load_dataset(
                 data_args.dataset_name,
@@ -345,6 +350,7 @@ def main():
                 cache_dir=model_args.cache_dir,
                 token=model_args.token,
                 streaming=data_args.streaming,
+                data_files=data_args.dataset_data_files,
             )
     else:
         data_files = {}
