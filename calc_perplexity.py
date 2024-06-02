@@ -88,3 +88,5 @@ if __name__ == "__main__":
 # model: jonasknobloch/gpt2-morf_s0-30-x-2_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 30.673219680786133
 # model: jonasknobloch/gpt2_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 1024 perplexity: 51.994606018066406
 # model: jonasknobloch/gpt2-ts_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 1024 perplexity: 47.15641403198242
+# model: /home/jknobloc/morph-gpt/out/2024-04-16_090023/gpt2+morf_s0-30-x-2_cx-en_00000-00009_50k/checkpoint-290000 dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 512 perplexity: 42.17572021484375
+# model: /home/jknobloc/morph-gpt/out/2024-04-16_090023/gpt2+morf_s0-30-x-2_cx-en_00000-00009_50k/checkpoint-290000 dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 30.03117561340332
