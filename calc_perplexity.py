@@ -75,3 +75,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# model: jonasknobloch/gpt2_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 512 perplexity: 72.0855712890625
+# model: jonasknobloch/gpt2-ts_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 512 perplexity: 67.71260833740234
+# model: jonasknobloch/gpt2-morf_u0-30-50-x_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 512 perplexity: 65.61773681640625
+# model: jonasknobloch/gpt2-morf_s0-30-x-2_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 512 perplexity: 43.8991584777832
+# model: jonasknobloch/gpt2_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 512 perplexity: 69.91279602050781
+# model: jonasknobloch/gpt2-ts_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 512 perplexity: 60.09918975830078
+# model: jonasknobloch/gpt2_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 57.387969970703125
+# model: jonasknobloch/gpt2-ts_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 50.60805130004883
+# model: jonasknobloch/gpt2-morf_u0-30-50-x_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 48.9696044921875
+# model: jonasknobloch/gpt2-morf_s0-30-x-2_cx-en_00000-00009_50k dataset: uonlp/CulturaX en/en_part_00010.parquet num_samples: 1000 stride: 1024 perplexity: 30.673219680786133
+# model: jonasknobloch/gpt2_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 1024 perplexity: 51.994606018066406
+# model: jonasknobloch/gpt2-ts_cx-cs_00000-00019_50k dataset: uonlp/CulturaX cs/cs_part_00020.parquet num_samples: 1000 stride: 1024 perplexity: 47.15641403198242
