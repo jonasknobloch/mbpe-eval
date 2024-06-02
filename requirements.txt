@@ -7,3 +7,7 @@ protobuf
 evaluate
 scikit-learn
 wandb
+nltk
+tqdm
+tokenizers
+numpy
