@@ -7,3 +7,14 @@ tokenizers/tokenizer_gpt2_tiny-shakespeare.json filter=lfs diff=lfs merge=lfs -t
 tokenizers/tokenizer_gpt2+morf_s0-30-x-2_cx-en_00000-00000_50k.json filter=lfs diff=lfs merge=lfs -text
 tokenizers/tokenizer_gpt2+ts_cx-cs_00000-00001_50k.json filter=lfs diff=lfs merge=lfs -text
 tokenizers/tokenizer_gpt2+ts_cx-en_00000-00000_50k.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m000_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m010_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m020_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m030_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m040_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m050_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m060_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m070_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m080_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m090_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
+tokenizers/tokenizer_gpt2_m100_tiny-stories_1024.json filter=lfs diff=lfs merge=lfs -text
